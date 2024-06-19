@@ -10,18 +10,20 @@ if [[ ! -d $INIT_CWD/src ]]; then
 fi
 
 cp suten.ts $INIT_CWD
-cp tsconfig.json $INIT_CWD
+#cp tsconfig.json $INIT_CWD
 
-cp -R src/index.ts $INIT_CWD/src
-cp -R src/resources.ts $INIT_CWD/src
-cp -R src/components $INIT_CWD/src
+# cp -R src/index.ts $INIT_CWD/src
+# cp -R src/resources.ts $INIT_CWD/src
+# cp -R src/components $INIT_CWD/src
 cp -R src/gameFunctions $INIT_CWD/src
-cp -R src/gameObjects $INIT_CWD/src
-cp -R src/gameServer $INIT_CWD/src
-cp -R src/gameSystems $INIT_CWD/src
+# cp -R src/gameObjects $INIT_CWD/src
+# cp -R src/gameServer $INIT_CWD/src
+# cp -R src/gameSystems $INIT_CWD/src
 cp -R src/gameUI $INIT_CWD/src
-cp -R src/gameUtils $INIT_CWD/src
-cp -R src/modules $INIT_CWD/src
+# cp -R src/gameUtils $INIT_CWD/src
+# cp -R src/modules $INIT_CWD/src
+cp src/index.ts $INIT_CWD/src/index.ts
+cp src/baseScene.ts $INIT_CWD/src/baseScene.ts
 
 # grep "class BaseScene" $INIT_CWD/src/baseScene.ts
 # rc=$?
