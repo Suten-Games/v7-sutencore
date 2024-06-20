@@ -1,6 +1,7 @@
 export var sutenBase = '30,30'; // Used to determine what to spawn here
 export var duatX = 1;
 export var duatZ = 1;
+export const apikey = "";
 
 export const lPlayer = "http://localhost:8080/player";
 export const sPlayer = "https://sutenquestapi.azurewebsites.net/player";
@@ -24,5 +25,3 @@ export const rainSpeed = 4
 export const snowSpeed = 2
 
 export const local: boolean = false;
-
-//export var sutenBase = '-148,-124'; // These were the coordinates of the Riverlands

@@ -1,6 +1,6 @@
 {
   "name": "@suten-games/v7-sutencore",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "index.js",
   "description": "SutenQuest Core Libraries",
   "scripts": {
@@ -20,11 +20,9 @@
   },
   "homepage": "https://github.com/Suten-Games/suten#readme",
   "dependencies": {
-    "@suten-games/baseimages": "^0.2.2",
-    "@suten-games/basesounds": "^0.0.9",
-    "colyseus.js": "^0.14.13"
+    "@suten-games/baseimages": "^0.2.5",
+    "@suten-games/basesounds": "^0.1.1"
   },
   "bundleDependencies": [
-    "colyseus.js"
   ]
 }

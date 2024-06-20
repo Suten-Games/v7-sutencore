@@ -1,6 +1,6 @@
 import ReactEcs, { UiEntity } from '@dcl/sdk/react-ecs'
 
-const Khepra = () => {
+const BackPack = () => {
     return (
         <UiEntity // This is the child entity with your image
             onMouseDown={() => {
@@ -8,15 +8,13 @@ const Khepra = () => {
             }}
             uiTransform={
                 {
-                    width: '10%', // Adjust these to the size of your image or the size you want
-                    height: '10%',
-                    alignSelf: 'flex-end',
-                    margin: {left: '20px'}
+                    width: '30%', // Adjust these to the size of your image or the size you want
+                    height: '50%',
                 }
             }
             uiBackground = {{
                 texture: {
-                    src: 'images/khepra.png',
+                    src: 'images/vali/BlueBackpack.png',
                 },
                 textureMode: 'stretch'
             }}
@@ -24,4 +22,4 @@ const Khepra = () => {
     )
 }
 
-export default Khepra;
+export default BackPack;

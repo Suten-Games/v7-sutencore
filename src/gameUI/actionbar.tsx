@@ -6,7 +6,8 @@ const ActionBar = () => {
             uiTransform={
             {
                 width: '45%', // Adjust these to the size of your image or the size you want
-                    height: '10%',
+                height: '10%',
+                alignSelf: 'flex-end'
             }
         }
         uiBackground = {{
